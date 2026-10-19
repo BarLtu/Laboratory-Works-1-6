@@ -6,7 +6,7 @@ f_xy = sin(abs(x+y)/20).*exp(-abs(x+y));
 surf(x, y, f_xy)
 colormap("hot");
 shading interp;
-view(90, 45);
+view(90, 20);
 xlabel('x');
 ylabel('y');
 zlabel('f(x,y)');
